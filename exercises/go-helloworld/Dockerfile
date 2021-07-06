@@ -15,9 +15,9 @@ CMD ["./helloworld"]
 #docker build -t go-helloworld lesson1/python-app
 
 
-#docker build -t lexbackup/go-helloworld:1.0.0-SNAPSHOT.01 .
+#docker build -t lexsoul/go-helloworld:1.0.0-SNAPSHOT.01 .
 #docker run -d -p 6111:6111 go-helloworld:1.0.0-SNAPSHOT.01
 #docker-machine ip default
 #http://192.168.99.100:6111/
-#docker tag go-helloworld:1.0.0-SNAPSHOT.01 lexbackup/go-helloworld:1.0.0-SNAPSHOT.01
-#docker push lexbackup/go-helloworld:1.0.0-SNAPSHOT.01 
+#docker tag go-helloworld:1.0.0-SNAPSHOT.01 lexsoul/go-helloworld:1.0.0-SNAPSHOT.01
+#docker push lexsoul/go-helloworld:1.0.0-SNAPSHOT.01 
